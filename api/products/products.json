@@ -1,52 +1,93 @@
 [
     {
-        "productId": 1,
-        "productName": "Leaf Rake",
-        "productCode": "GDN-0011",
-        "releaseDate": "March 19, 2016",
-        "description": "Leaf rake with 48-inch wooden handle.",
-        "price": 19.95,
-        "starRating": 3.2,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png"
+        "metricId": 1,
+        "shortTitle": "Privileged users without Company Assets",
+        "metricTitle": "This metric tells you the number of employees or contractors without a company PC or Mac computer.",
+        "metricComment": "Not a lot of concern here.  Each non-company asset means that the company is taking additional risk, but with only 6 assets in your team, we do not assess the risk as high. Make sure anyone with customer data gets a company asset.",
+        "metricValue": "6",
+        "metricValueDetail": "",
+        "metricCalc": "Automated Feed",
+        "lastUpdate": "Updated 17 hours ago"
     },
     {
-        "productId": 2,
-        "productName": "Garden Cart",
-        "productCode": "GDN-0023",
-        "releaseDate": "March 18, 2016",
-        "description": "15 gallon capacity rolling garden cart",
-        "price": 32.99,
-        "starRating": 4.2,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
+        "metricId": 2,
+        "shortTitle": "Individuals: phishing simulation",
+        "metricTitle": "Employees or Contractors who clicked on simulated phishing campaigns.",
+        "metricComment": "By clicking at the detail, you can see who clicked and how many times they clicked.",
+        "metricValue": "125",
+        "metricValueDetail": "",
+        "metricCalc": "Automated Feed",
+        "lastUpdate": "Updated 1 day ago"
     },
     {
-        "productId": 5,
-        "productName": "Hammer",
-        "productCode": "TBX-0048",
-        "releaseDate": "May 21, 2016",
-        "description": "Curved claw steel hammer",
-        "price": 8.9,
-        "starRating": 4.8,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/73/rejon_Hammer.png"
+        "metricId": 3,
+        "shortTitle": "Vault Server Coverage",
+        "metricTitle": "Reveals the percentage of servers that have properly stored their code in secure vaults.",
+        "metricComment": "This number has grown from 5% to 95% within the last few months.  Keep up the great work as securing our company's code is critical to protecting our intellectual property.",
+        "metricValue": "95%",
+        "metricValueDetail": "95 out of 100",
+        "metricCalc": "Human Ingested Feed",
+        "lastUpdate": "Updated 5 days ago"
     },
     {
-        "productId": 8,
-        "productName": "Saw",
-        "productCode": "TBX-0022",
-        "releaseDate": "May 15, 2016",
-        "description": "15-inch steel blade hand saw",
-        "price": 11.55,
-        "starRating": 3.7,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/27070/egore911_saw.png"
+        "metricId": 4,
+        "shortTitle": "Server Vulnerability Score Average",
+        "metricTitle": "Reveals the average vulnerability score for your servers.",
+        "metricComment": "",
+        "metricValue": "2500",
+        "metricValueDetail": "",
+        "metricCalc": "Human Ingested Feed",
+        "lastUpdate": "Updated 5 days ago"
     },
     {
-        "productId": 10,
-        "productName": "Video Game Controller",
-        "productCode": "GMG-0042",
-        "releaseDate": "October 15, 2015",
-        "description": "Standard two-button video game controller",
-        "price": 35.95,
-        "starRating": 4.6,
-        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+        "metricId": 5,
+        "shortTitle": "Vault Server Coverage",
+        "metricTitle": "Reveals the percentage of servers that have properly stored their code in secure vaults.",
+        "metricComment": "This number has grown from 5% to 95% within the last few months.  Keep up the great work as securing our company's code is critical to protecting our intellectual property.",
+        "metricValue": "95%",
+        "metricValueDetail": "95 out of 100",
+        "metricCalc": "Human Ingested Feed",
+        "lastUpdate": "Updated 5 days ago"
+    },
+    {
+        "metricId": 6,
+        "shortTitle": "Vault Server Coverage",
+        "metricTitle": "Reveals the percentage of servers that have properly stored their code in secure vaults.",
+        "metricComment": "This number has grown from 5% to 95% within the last few months.  Keep up the great work as securing our company's code is critical to protecting our intellectual property.",
+        "metricValue": "95%",
+        "metricValueDetail": "95 out of 100",
+        "metricCalc": "Human Ingested Feed",
+        "lastUpdate": "Updated 5 days ago"
+    },
+    {
+        "metricId": 7,
+        "shortTitle": "Vault Server Coverage",
+        "metricTitle": "Reveals the percentage of servers that have properly stored their code in secure vaults.",
+        "metricComment": "This number has grown from 5% to 95% within the last few months.  Keep up the great work as securing our company's code is critical to protecting our intellectual property.",
+        "metricValue": "95%",
+        "metricValueDetail": "95 out of 100",
+        "metricCalc": "Human Ingested Feed",
+        "lastUpdate": "Updated 5 days ago"
+    },
+    {
+        "metricId": 8,
+        "shortTitle": "Vault Server Coverage",
+        "metricTitle": "Reveals the percentage of servers that have properly stored their code in secure vaults.",
+        "metricComment": "This number has grown from 5% to 95% within the last few months.  Keep up the great work as securing our company's code is critical to protecting our intellectual property.",
+        "metricValue": "95%",
+        "metricValueDetail": "95 out of 100",
+        "metricCalc": "Human Ingested Feed",
+        "lastUpdate": "Updated 5 days ago"
+    },
+    {
+        "metricId": 9,
+        "shortTitle": "Vault Server Coverage",
+        "metricTitle": "Reveals the percentage of servers that have properly stored their code in secure vaults.",
+        "metricComment": "This number has grown from 5% to 95% within the last few months.  Keep up the great work as securing our company's code is critical to protecting our intellectual property.",
+        "metricValue": "95%",
+        "metricValueDetail": "95 out of 100",
+        "metricCalc": "Human Ingested Feed",
+        "lastUpdate": "Updated 5 days ago"
     }
+    
 ]

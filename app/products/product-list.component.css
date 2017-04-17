@@ -1,0 +1,152 @@
+thead {
+    color: #337AB7;
+}
+
+#short {
+    font-size: 18px;
+    padding: 6px;
+     height: 3em;
+
+}
+
+#metric {
+   font-size: 45px;
+   padding-left: 6px;
+   padding-right: 6px;
+}
+
+#title {
+    font-size: 14px;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#title_full {
+    font-size: 14px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+
+#notation {
+    font-size: 12px;
+    padding-left: 6px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 3em;
+    padding-right: 6px;
+}
+
+#commentary {
+    font-size: 14px;
+    color: #6495ED;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+    padding-left: 6px;
+    font-style: italic;
+    padding-right: 6px;
+    
+}
+
+#commentary_full {
+    font-size: 14px;
+    color: #6495ED;
+    padding-left: 6px;
+    font-style: italic;
+    padding-right: 6px;
+    
+}
+
+
+
+#card {
+    height: 250px;
+    width: 350px;
+    border-style: solid;
+    border-width: 1px;
+    padding: px;
+}
+
+#card_nav {
+    height: 40px;
+    width: 350px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#card_buttons {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 350px;
+
+}
+
+#card_lower {
+    position: relative;
+    height: 50px;
+    width: 350px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#custom_button {
+    height: 40px;
+}
+
+#contact_sme {
+    height: 40px;
+    
+}
+
+#card_space {
+    height: 40px;
+
+}
+
+.app-modal-window .modal-dialog {
+    width: 2000px;
+}
+
+#card_expand {
+    float: left;
+    width: 350px;
+}
+
+#card_trend {
+    float: left;
+    width: 350px;
+}
+
+#trend_chart {
+    width: 350px;
+    height: 350px;
+}
+
+#cards {
+    width: 800px;
+}
+
+#first_choice {
+    width: 50%;
+    float: left;
+    padding-top: 12px;
+    text-align: center;
+}
+
+#second_choice {
+    width: 50%;
+    float: left;
+    padding-top: 12px;
+    text-align: center;
+}
+
+#card_outline {
+    float: left;
+    padding-right: 32px;
+}

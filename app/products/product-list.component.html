@@ -1,0 +1,144 @@
+<!-- first modal: modal with custom header, content and footer -->
+
+<div class="row">
+    <modal #fifthModal modalClass="modal-lg">
+        <modal-header>
+            <div id="short">Privileged users without Company Assets</div>
+        </modal-header>
+        <modal-content>           
+            <div id="largeModul">
+                
+
+                    <div class="row" id="cards">
+                        <div id="card_expand" class="col-md-6">
+                            <div id="metric">6</div>
+                            <div id="title_full">This metric tells you the number of employees or contractors without a 
+                                                    company PC or Mac Computer.  Employees or contractors without a company asset should be limited to 
+                                                    Company Public information as these machines lack our strong DLP (Data Loss Prevention) software.</div>
+                
+                            <div id="notation">Automated feed - Updated 17 hours ago</div>
+                
+                            <div id="commentary_full">Not a lot of concern here.  Each non-company asset means that the company is taking additional risk, 
+                                                    but with only 6 assets in your team, we do not assess the risk as high. Make sure anyone with customer data gets a company asset. We recommend reviewing 
+                                                    each user to ensure that they do not need access to sensitive company information.
+                    
+                                                    <p>If an individual that does not have a company asset needs access to sensitive company information, 
+                                                    you are authorized to provide them a company asset.</div>
+                        </div>
+                            <div id="card_trend" class="col-md-6">
+                                <img src="./app/assets/images/Trend_chart.png" id="trend_chart">
+                            </div>
+                    </div>    
+                    
+                    <div class="row" id="menu items">
+                            <div id="first_choice">
+                                <a href="#"> Organizational View</a>
+                            </div>
+                            <div id="second_choice">
+                                <a href="#"> Full List</a>
+                            </div>
+                    </div>
+
+                    
+
+            </div>
+        </modal-content>
+        <modal-footer>
+            <button class="btn btn-primary" (click)="fifthModal.close()">Close</button>
+        </modal-footer>
+    </modal>
+</div>
+
+
+
+
+<div class="container-fluid">
+    <div class='row-fluid' *ngIf='products && products.length'>
+        
+        <div *ngFor='let product of products | productFilter:listFilter'>
+            <div id="card_outline">
+                <div id="card_nav">
+                </div>
+                    
+                <div id="card">
+                        <div id="short"> <b>{{ product.shortTitle}} </b> </div>
+                        <div id="metric">{{ product.metricValue }} <font size=3>{{product.metricValueDetail }}</font></div>
+                       <!-- <div id="title">{{ product.metricTitle }}</div> -->
+                        <div id="notation">{{ product.metricCalc}} - {{ product.lastUpdate}} </div>
+                        <div id="commentary">{{ product.metricComment }} </div>
+                </div>
+
+                <div id="card_lower">
+                    <div id="card_buttons">
+                        <button type="button" class="btn" id="custom_button" (click)="fifthModal.open()" >Details</button>
+                        <button type="button" class="btn" id="custom_button">Action</button>
+                        <button type="button" class="btn" id="contact_sme">Contact SME</button>
+                    </div>
+                </div>
+
+                <div id="card_space">
+                </div>
+            </div>
+        </div>
+                   
+    </div>
+</div>
+
+
+
+    <!--
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-2'>Filter by:</div>
+            <div class='col-md-4'>
+                <input type='text' [(ngModel)]='listFilter' />
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-6'>
+                <h3>Filtered by: {{ listFilter }} </h3>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <!--
+    <div class='table-responsive'>
+        <table class='table' >
+            <thead>
+                <tr>
+                    <th>
+                        <button class='btn btn-primary' (click)='toggleImage()'>
+                            {{showImage ? 'Hide' : 'Show' }} Image
+                        </button>
+                    </th>
+                    <th>Product</th>
+                    <th>Code</th>
+                    <th>Available</th>
+                    <th>Price</th>
+                    <th>5 Star Rating</th>
+                </tr>
+            </thead>
+
+        
+            <tbody>
+                <tr *ngFor = 'let product of products | productFilter:listFilter'>
+                    <td>
+                        <img *ngIf='showImage'  
+                            [src]='product.imageUrl' [title]='product.productName' [style.width.px]='imageWidth' [style.margin.px]='imageMargin'>
+                    </td>
+                    <td><a [routerLink]="['/product', product.productId]">  {{ product.productName }} </a></td>
+                    <td>{{ product.productCode | lowercase }}</td>
+                    <td>{{ product.releaseDate }}</td>
+                    <td>{{ product.price | currency:'USD':true:'1.2-2' }}</td>
+                    <td><ai-star [rating]='product.starRating' (ratingClicked)='onRatingClicked($event)'></ai-star></td>
+                </tr>
+           
+
+            </tbody>
+             
+        </table>
+       
+
+    </div>
+     -->
